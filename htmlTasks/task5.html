@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Task 5</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      h1,
+      p {
+        text-align: center;
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+      #form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Task 5</h1>
+    </div>
+    <div>
+      <h1 style="color: blue">Registration form</h1>
+      <form id="form">
+        <table border="1" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="150">
+              <label for="fn"
+                ><center><b>First Name</b></center></label
+              >
+            </td>
+            <td width="390">
+              <input type="text" id="fn" name="first_name" size="53" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="ln"
+                ><center><b>Last Name</b></center></label
+              >
+            </td>
+            <td>
+              <input type="text" id="ln" name="last_name" size="53" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email"
+                ><center><b>Email</b></center></label
+              >
+            </td>
+            <td>
+              <input type="email" id="email" name="email" size="53" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pwd"
+                ><center><b>Password</b></center></label
+              >
+            </td>
+            <td>
+              <input type="password" id="pwd" name="password" size="53" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="rpwd"
+                ><center><b>Re-enter Password</b></center></label
+              >
+            </td>
+            <td>
+              <input type="password" id="rpwd" name="re_password" size="53" />
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2">
+              <label for="gender"
+                ><center><b>Gender:</b></center></label
+              >
+            </td>
+            <td>
+              <input type="radio" id="male" name="gender" value="male" /> Male
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" id="female" name="gender" value="female" />
+              Female
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="age"
+                ><center><b>Age:</b></center></label
+              >
+            </td>
+            <td>
+              <input type="text" id="age" name="age" size="53" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="phno"
+                ><center><b>Phone Number</b></center></label
+              >
+            </td>
+            <td>
+              <input type="text" id="phno" name="phone" size="53" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="add"
+                ><center><b>Address</b></center></label
+              >
+            </td>
+            <td>
+              <textarea
+                id="add"
+                name="address"
+                style="width: 99%; height: 78px"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="st"
+                ><center><b>State</b></center></label
+              >
+            </td>
+            <td>
+              <input type="text" id="st" name="state" size="53" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="cn"
+                ><center><b>Country</b></center></label
+              >
+            </td>
+            <td>
+              <select id="cn" name="country">
+                <option>Choose your country</option>
+                <option value="IND">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="AUS">Australia</option>
+                <option value="CAN">Canada</option>
+                <option value="NZ">New Zealand</option>
+                <option value="UAE">UAE</option>
+                <option value="SA">South Africa</option>
+                <option value="GER">Germany</option>
+                <option value="JAP">Japan</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lk"
+                ><center><b>Languages known</b></center></label
+              >
+            </td>
+            <td>
+              <input type="checkbox" name="languages" value="English" />English
+              <input type="checkbox" name="languages" value="Kannada" />Kannada
+              <input type="checkbox" name="languages" value="Hindi" />Hindi
+              <input type="checkbox" name="languages" value="Teulgu" />Telugu
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" name="declaration" required checked />
+              Hereby I declare all the given details are true
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="right">
+              Log in to
+              <a href="https://www.ethnus.com" target="_blank">Ethnus</a>
+              Website
+            </td>
+          </tr>
+        </table>
+        <p></p>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

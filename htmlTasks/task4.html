@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Task 4</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #dbfbdf;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      h1,
+      p {
+        text-align: center;
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+      #form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Task 4</h1>
+    </div>
+    <p>Form:</p>
+    <div id="form">
+      <form>
+        <table>
+          <tr>
+            <td width="200">
+              <label for="fn"> Full Name:</label>
+            </td>
+            <td>
+              <input type="text" name="fn" placeholder="Enter your firstname" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="un"> Username:</label>
+            </td>
+            <td>
+              <input type="text" name="un" placeholder="Enter your username" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pwd"> Password:</label>
+            </td>
+            <td>
+              <input
+                type="password"
+                name="pwd"
+                placeholder="Enter your password"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="rpwd"> Re Password:</label>
+            </td>
+            <td>
+              <input
+                type="password"
+                name="rpwd"
+                placeholder="Re-enter your password"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="add"> Address:</label>
+            </td>
+            <td>
+              <input type="text" name="add" placeholder="Enter your address" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="age"> Age:</label>
+            </td>
+            <td>
+              <input type="text" name="age" placeholder="Enter your age" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gdr"> Gender:</label>
+            </td>
+            <td>
+              <select>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <input type="submit" value="Save" />
+      </form>
+    </div>
+  </body>
+</html>
