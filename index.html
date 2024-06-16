@@ -1,1 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(270deg, #a1f3d0, #ffffff);
+        background-size: 400% 400%;
+        animation: gradientAnimation 3s ease infinite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #333;
+      }
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      h1,
+      h3 {
+        margin: 0.5em 0;
+        text-align: center;
+      }
+      #tasks-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .task-section {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 300px;
+        max-width: 90%;
+      }
+      .task-section h3 {
+        margin-top: 0;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #29f644;
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sparsh Saxena</h1>
+    <h3>Vellore Institute of Technology , Chennai Campus </h3>
+    <h3>Computer Science Engineering </h3>
+    <h3>Slot: 2:30 PM - 4:30 PM</h3>
+    <div id="tasks-container">
+      <div class="task-section" id="html-tasks">
+        <h3>HTML Tasks</h3>
+        <table>
+          <tr>
+            <th>Task Name</th>
+            <th>Task Link</th>
+          </tr>
+          <tr>
+            <td>Task 1</td>
+            <td>
+              <a href="./htmlTasks/task1.html" target="_blank">Task 1 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 2</td>
+            <td>
+              <a href="./htmlTasks/task2.html" target="_blank">Task 2 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 3</td>
+            <td>
+              <a href="./htmlTasks/task3.html" target="_blank">Task 3 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 4</td>
+            <td>
+              <a href="./htmlTasks/task4.html" target="_blank">Task 4 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 5</td>
+            <td>
+              <a href="./htmlTasks/task5.html" target="_blank">Task 5 link</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="task-section" id="css-tasks">
+        <h3>CSS Tasks</h3>
+        <table>
+          <tr>
+            <th>Task Name</th>
+            <th>Task Link</th>
+          </tr>
+          <tr>
+            <td>Task 1</td>
+            <td>
+              <a href="./cssTasks/task1.html" target="_blank">Task 1 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 2</td>
+            <td>
+              <a href="./cssTasks/task2.html" target="_blank">Task 2 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 3</td>
+            <td>
+              <a href="./cssTasks/task3.html" target="_blank">Task 3 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 4</td>
+            <td>
+              <a href="./cssTasks/task4.html" target="_blank">Task 4 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 5</td>
+            <td>
+              <a href="./cssTasks/task5.html" target="_blank">Task 5 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 6</td>
+            <td>
+              <a href="./cssTasks/task6.html" target="_blank">Task 6 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 7</td>
+            <td>
+              <a href="./cssTasks/task7.html" target="_blank">Task 7 link</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="task-section" id="bootstrap-tasks">
+        <h3>Bootstrap Tasks</h3>
+        <table>
+          <tr>
+            <th>Task Name</th>
+            <th>Task Link</th>
+          </tr>
+          <tr>
+            <td>Task 1</td>
+            <td>
+              <a href="./bootstrapTasks/task1.html" target="_blank"
+                >Task 1 link</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Task 2</td>
+            <td>
+              <a href="./bootstrapTasks/task2.html" target="_blank"
+                >Task 2 link</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Task 3</td>
+            <td>
+              <a href="./bootstrapTasks/task3.html" target="_blank"
+                >Task 3 link</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Task 4</td>
+            <td>
+              <a href="./bootstrapTasks/task4.html" target="_blank"
+                >Task 4 link</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Task 5</td>
+            <td>
+              <a href="./bootstrapTasks/task5.html" target="_blank"
+                >Task 5 link</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Task 6</td>
+            <td>
+              <a href="./bootstrapTasks/task6.html" target="_blank"
+                >Task 6 link</a
+              >
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="task-section" id="js-tasks">
+        <h3>JavaScript Tasks</h3>
+        <table>
+          <tr>
+            <th>Task Name</th>
+            <th>Task Link</th>
+          </tr>
+          <tr>
+            <td>Task 1</td>
+            <td>
+              <a href="./jsTasks/task1.html" target="_blank">Task 1 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 2</td>
+            <td>
+              <a href="./jsTasks/task2.html" target="_blank">Task 2 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 3</td>
+            <td>
+              <a href="./jsTasks/task3.html" target="_blank">Task 3 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 4</td>
+            <td>
+              <a href="./jsTasks/task4.html" target="_blank">Task 4 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 5</td>
+            <td>
+              <a href="./jsTasks/task5.html" target="_blank">Task 5 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 6</td>
+            <td>
+              <a href="./jsTasks/task6.html" target="_blank">Task 6 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 7</td>
+            <td>
+              <a href="./jsTasks/task7.html" target="_blank">Task 7 link</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Task 8</td>
+            <td>
+              <a href="./jsTasks/task8.html" target="_blank">Task 8 link</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
 
