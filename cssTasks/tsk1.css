@@ -1,0 +1,66 @@
+table#tab1 {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+#tab1 th,
+#tab1 td {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+#tab2 td {
+  border: 2px solid rgb(175, 179, 61);
+}
+
+td#c1 {
+  border-radius: 4px;
+}
+td#c2 {
+  border-radius: 6px;
+}
+td#c3 {
+  border-radius: 10px;
+}
+td#c4 {
+  border-radius: 6px;
+}
+td#c5 {
+  border-radius: 2px;
+}
+td#c6 {
+  border-radius: 10px;
+}
+td#c7 {
+  border-radius: 50%;
+}
+td#c8 {
+  border-radius: 3px;
+}
+td#c9 {
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 15px;
+}
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1,
+p {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
