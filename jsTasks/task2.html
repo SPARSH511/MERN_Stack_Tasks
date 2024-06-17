@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript - Task 2</title>
+  </head>
+  <body>
+    <script>
+      function sort() {
+        var x = document.getElementById("input").value.split("");
+        var y = x.sort().join("");
+        document.getElementById("output").innerHTML = `Sorted String: ${y}`;
+      }
+    </script>
+    <h1>Sort a String</h1>
+    <label for="input">Enter the string: </label>
+    <input
+      type="text"
+      name="input"
+      id="input"
+      placeholder="Enter the string"
+      onchange="sort()"
+    />
+    <br />
+    <br />
+    <button onclick="sort()">Sort</button>
+    <p id="output"></p>
+  </body>
+</html>
